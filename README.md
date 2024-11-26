@@ -1,7 +1,7 @@
 
 # Welcome to my Portfolio
 
-This is a personal portfolio website designed to showcase my projects, skills, and provide information about me. It includes multiple sections such as an about page, projects showcase, and responsive design.
+This is a personal portfolio website designed to showcase my projects, skills, and provide information about me. It includes multiple sections such as an about page, projects showcase, and responsive design. I chose this tech stack because it can be easily deploy using git-hub pages.
 
 ## Project Structure
 
