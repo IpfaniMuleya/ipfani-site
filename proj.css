@@ -1,0 +1,31 @@
+
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Line to divide body from footer */
+.divider-line {
+    width: 100%;
+    border-top: 1px solid #737373; /* Adjust line properties as needed */
+    margin-top: 20px;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Updated footer background color */
+    color: #737373; /* Updated footer text color */
+}
+
+/* Updated footer link styles */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Updated footer link hover styles */
+footer a:hover {
+    text-decoration: underline;
+}
