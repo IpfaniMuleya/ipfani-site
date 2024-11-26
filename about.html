@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <style>
+        h1, h2{
+            color: rgb(189, 189, 251);
+        }
+    </style>
+</head>
+<header>
+    <nav id="desktop-nav">
+        <div class="logo">Ipfani Muleya</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ipfani Muleya</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+<div class="container">
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                        src="./assets/profile-cercle.png"
+                        alt="Profile picture"
+                        class="about-pic"
+                />
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <h1>About me</h1>
+    <p>Hello! I'm Ipfani Muleya, a recent computer science graduate with a passion for cyberSecurity, coding
+        and a strong desire to make a mark in the world of software development. Welcome to my
+        corner of the internet.</p>
+
+    <div class="project-card">
+        <h2>Who Am I?</h2>
+        <p>I'm a tech enthusiast who believes that the possibilities in the world of software are
+            limitless. My journey in computer science began with a fascination for technology and a
+            commitment to solving real-world problems through code. As a recent graduate, I'm excited
+            to embark on this journey with a fresh perspective and a hunger to learn and grow.</p>
+    </div>
+
+    <div class="project-card">
+        <h2>My Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> I'm proficient in a variety of programming languages,
+                including HTML, CSS, Javascript, C, Java, Python, and many-more. These languages serve as my tools for
+                turning ideas into functioning software.</li>
+            <li><strong>Database Wizardry:</strong> I have a strong command of SQL, making me quite
+                the database enthusiast. Managing data and turning it into meaningful insights is one
+                of the aspects of software development that truly excites me.</li>
+            <li><strong>Algorithmic Thinking:</strong> I have a solid understanding of algorithms and
+                data structures, which enables me to design efficient and scalable solutions to complex
+                problems.</li>
+        </ul>
+    </div>
+
+    <div class="project-card">
+        <h2>My Journey</h2>
+        <p>My journey into the world of software development has just begun in earnest.
+            While my academic background provided a strong foundation, I'm now focused on
+            honing my practical skills and applying my knowledge to real-world projects.</p>
+    </div>
+
+    <div class="project-card">
+        <h2>What Drives Me?</h2>
+        <p>I'm motivated by the idea that software has the power to transform industries,
+            improve lives, and create positive change in the world. I want to be part of
+            that transformation.</p>
+    </div>
+
+    <!-- The Timeline -->
+    <h2 id="line-center">My timeline</h2>
+
+    <ul class="timeline">
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Honours Degree</span>
+                    <span class="time-wrapper"><span class="time">2024</span></span>
+                </div>
+                <div class="desc">I'm currently pursuing my honours in computer science at the University of Pretoria.</div>
+            </div>
+        </li>
+
+
+        <!-- Item 1 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Freelancer</span>
+                    <span class="time-wrapper"><span class="time">2023</span></span>
+                </div>
+                <div class="desc">My current employment. I tackle weird projects on Fiver
+                    and GitHub and build sofisticated software!</div>
+            </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Venomous Motives Records.</span>
+                    <span class="time-wrapper"><span class="time">2022</span></span>
+                </div>
+                <div class="desc">My first employer. All the stuff I've learned and projects
+                    I've been working on.</div>
+            </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Computer Science Degree</span>
+                    <span class="time-wrapper"><span class="time">2022</span></span>
+                </div>
+                <div class="desc">A description of all the lectures and courses I have
+                    taken and my final degree?
+                    <ul>
+                        <li>Advanced Algotithms</li>
+                        <li>Software Engineering</li>
+                        <li>Database Design & Implementation</li>
+                        <li>Techniques Of Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+
+    <div class="project-card">
+        <h2>What's Next?</h2>
+        <p>I'm eager to take on new challenges, collaborate with like-minded individuals,
+            and contribute to exciting projects. Whether it's developing web applications,
+            diving into machine learning, or exploring the latest trends in tech, I'm always
+            up for the challenge.</p>
+    </div>
+
+    <div class="project-card">
+        <h2>Let's Connect</h2>
+        <p>I'm want to learn, grow, and share experiences with the vibrant tech community.
+            If you'd like to connect, discuss a project, or simply have a tech-related chat,
+            feel free to <a href="mailto:muleyaipfani22@gmail.com">contact me</a> via email
+            or through my social media profiles. Let's build something amazing together!</p>
+    </div>
+
+    <p></p>
+    <!-- Divider line between body and footer -->
+    <!--   <div class="divider-line"></div>-->
+</div>
+</body>
+<footer>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                        src="./assets/icons8-email-64.png"
+                        alt="Email icon"
+                        class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:muleyaipfani22@gmail.com">muleyaipfani22@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                        src="./assets/icons8-linkedin-30.png"
+                        alt="LinkedIn icon"
+                        class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/ipfanimuleya/">LinkedIn</a></p>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="copyright">
+            &copy; <span id="year"></span> Ipfani Muleya | All Rights Reserved
+            <script>
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </section>
+</footer>
+<script src="script.js"></script>
+</html>
