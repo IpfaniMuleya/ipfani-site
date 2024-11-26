@@ -29,7 +29,7 @@ Ipfani-site/
 
 1. **Clone the repository**:
    ```bash
-   git clone 
+   git clone https://github.com/IpfaniMuleya/ipfani-site.git
    cd ipfani-site
    ```
 
